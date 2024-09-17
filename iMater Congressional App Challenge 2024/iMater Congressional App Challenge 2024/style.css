@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&display=swap');
+
+html, body{
+    width:100%;
+    margin: 0;
+}
+
+
+.header {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.banner {
+
+	width: 34%;
+	margin-left: 33%; margin-right: 33%;
+	animation-name: slideFromTop;
+	animation-duration: .8s;
+    
+
+}
+
+.background {
+
+	width: 100%;
+    position: absolute;
+    opacity: 45%; 
+    z-index: -1;
+
+
+}
+
+.hotbar {
+
+    position: absolute;
+    left: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff914d;
+    width: 100%;
+    height: 60px;
+    margin: 0; padding:0;
+    
+}
+
+.home-button, .meal-types, .tourist, .cities {
+    
+    appearance: none;
+    text-align: center;
+    margin-left: 3vh; margin-right: 1%;
+    width: 10%;
+    height: 50%;
+    border: 0;
+    background-color: #ff914d;
+    font-family: Kanit;
+    font-size: clamp(15px, 1.2vw, 20px);
+    letter-spacing: -1px;
+    transition:all 0.2s ease 0s;
+    
+}
+
+.home-button:hover, .meal-types:hover, .tourist:hover, .cities:hover {
+
+    color:#ffe7b8;
+    transform: translateY(-4px);
+
+}
+
+.body {
+
+    margin-top: 8vh;
+}
+
+.footnotes {
+
+    margin-top: 70vh;
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ffe7b8;
+
+}
+
+.logo {
+
+    height: 200%;
+    margin-left: 10vh; margin-right: 10vh;
+
+}
+
+@keyframes slideFromTop{
+
+    0%{
+    transform: translateY(-250px);
+    
+    }
+
+    75%{
+    transform: translateY(20px);
+
+    }
+
+    100% {
+    transform: translateY(0px);
+    
+    }
+}
