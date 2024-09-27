@@ -8,7 +8,7 @@ html, body{
 
 a {
     text-decoration: none;
-    color: none;
+    color: black;
 }
 
 .hotbar {
@@ -105,7 +105,7 @@ a {
 .subheading {
 
     text-align: left;
-    margin: 1rem; margin-left: 4.5rem;
+    margin: 2rem; margin-left: 3.2rem;
     font-size: 2rem;
     font-family: kanit;
 }
@@ -115,8 +115,8 @@ body {
     display: grid;
     background: white;
 }
-  
-  
+
+
 .cards {
 
     display: flex;
@@ -134,9 +134,9 @@ body {
     align-items: flex-start;
     justify-content: space-evenly;
     border-radius: 1rem;
-    height: 20rem; 
-    width: 15rem; 
-    padding: 1rem;
+    height: 18rem; 
+    width: 14rem; 
+    padding: .5rem;
     box-shadow: -3px 3px 10px 0px black;
     transition: 0.2s;
     
@@ -149,7 +149,7 @@ body {
 .card:not(:last-child):hover, .card:not(:last-child):focus-within {
     transform: translateY(-1rem);
     ~ .card {
-      transform: translateX(2rem);
+        transform: translateX(2rem);
     }
 }
 
@@ -188,16 +188,17 @@ body {
     display:flex;
     justify-content: space-between;
     font-family: kanit;
+    color: black;
 }
 
 .photo{
     margin: 1rem;
-    width: 30%;
+    width: 42%;
 }
 
 .description {
 
-    font-family: kanit;
+    font-family: kanit; 
 }
 
 
