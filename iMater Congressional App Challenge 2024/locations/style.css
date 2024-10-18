@@ -13,7 +13,7 @@ html{
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .hotbar {
@@ -181,18 +181,14 @@ body {
 }
 
 .card {
-    background: white;
+    background: #ffe7b829;
     display: flex;
-    grid-auto-flow: row;
     opacity: 1;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
     border-radius: .5rem;
     height: 18rem; 
     width: 18rem; 
     padding: .5rem;
-    box-shadow: -3px 3px 10px 0px black;
     transition: 0.2s;
     margin: 1rem;
 }
@@ -202,19 +198,28 @@ body {
 .name{
 
     display:flex;
-    justify-content: space-between;
+    flex-direction: column-reverse; 
     font-family: kanit;
-    color: black;
+    color: rgb(130, 24, 24);
 }
 
 .photo{
-    margin: .2rem;
-    width: 42%;
+    width: 18rem;
+    height: 9rem;;
+    border-radius: 3%;
+    object-fit: cover;
 }
 
 .description {
 
     font-family: kanit; 
     border-radius: .5rem;
+    margin-top: -20px;
+}
+
+.card:hover{
+
+    transform: translateY(-25px);
+    box-shadow: 4px 4px #ff914d;
 }
 
