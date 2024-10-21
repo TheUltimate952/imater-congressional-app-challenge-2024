@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
 html, body{
     width:100%;
@@ -18,7 +19,7 @@ a {
 
 .hotbar {
 
-    margin-top: 5vh;
+    margin-top: 7vh;
     height: 4vw;
     width: 100%;
     display: flex;
@@ -118,7 +119,7 @@ a {
 
 .heading {
 
-    margin-top: 15vh;
+    margin-top: 12vh;
     text-align: center;
     font-size: 3rem;
     font-family: kanit;
@@ -129,7 +130,7 @@ a {
 .subheading {
 
     text-align: left;
-    margin: 2rem; margin-left: 3.2rem;
+    margin: 2rem; margin-left: 6.5rem;
     font-size: 2rem;
     font-family: kanit;
 
@@ -147,7 +148,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 200px;
-    
+    flex-wrap: wrap;
 }
 
 .card {
@@ -159,11 +160,11 @@ body {
     align-items: flex-start;
     justify-content: space-evenly;
     border-radius: 1rem;
-    height: 18rem; 
-    width: 14rem; 
+    height: 20rem; 
+    width: 18rem; 
     box-shadow: -3px 3px 10px 0px black;
     transition: 0.2s;
-    
+    flex-wrap: wrap;
 }
 
 .card:not(:first-child) {
@@ -210,10 +211,15 @@ body {
 
 .name{
 
-    display:flex;
-    justify-content: space-between;
+    display: flex;
     font-family: kanit;
     color: black;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 10000;
 }
 
 .photo{
@@ -226,7 +232,9 @@ body {
 
 .description {
 
-    font-family: kanit; 
+    font-family: tinos; 
+    font-size: 1.1rem;
+    margin-right: .8rem; margin-left: 1rem;
 }
 
 @keyframes slideIn{
