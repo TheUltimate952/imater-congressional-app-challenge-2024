@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
 html, body{
     width:100%;
@@ -105,14 +106,25 @@ a {
     font-size: clamp(15px, 1.2vw, 40px);
     letter-spacing: -1px;
     transition:all 0.2s ease 0s;
-    
+    color:white;
 }
 
-.taskbar-button:hover, .abc-button:hover {
+.taskbar-button:hover{
 
     color: #ff914d;
     transform: translateY(-4px);
 
+}
+
+.available:hover {
+
+    color: #ff914d;
+    transform: translateY(-4px);
+
+}
+
+.available{
+    color:black;
 }
 
 .dropdown {
@@ -205,7 +217,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 200px;
     
 }
 
@@ -215,8 +226,8 @@ body {
     opacity: 1;
     flex-direction: column;
     border-radius: .5rem;
-    height: 18rem; 
-    width: 18rem; 
+    height: 34rem; 
+    width: 28rem; 
     padding: .5rem;
     transition: 0.2s;
     margin: 1rem;
@@ -229,21 +240,41 @@ body {
     display:flex;
     flex-direction: column-reverse; 
     font-family: kanit;
-    color: rgb(130, 24, 24);
+    color: black;
+    margin-left: 2px;
 }
 
 .photo{
-    width: 18rem;
-    height: 9rem;;
+    width: 28rem;
+    height: 15rem;
     border-radius: 3%;
     object-fit: cover;
 }
 
 .description {
 
-    font-family: kanit; 
+    font-family: Tinos; 
     border-radius: .5rem;
-    margin-top: -20px;
+    margin-top: rem;
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    align-items: flex-end;
+}
+
+.address{
+    font-size: .8rem;
+    margin-right: 17.6rem;
+    color:#ff914d
+}
+
+.info{
+    display: flex;
+    align-items: flex-end;
+    background-color: #ff914d;
+    padding: 1rem;
+    border-radius: 8%;
+    font-family: kanit;
 }
 
 .card:hover{

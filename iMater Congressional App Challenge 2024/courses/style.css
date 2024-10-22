@@ -168,7 +168,7 @@ body {
 }
 
 .card:not(:first-child) {
-    margin-left: -2rem;
+    margin-left: -2.5rem;
 }
 
 .card:not(:last-child):hover, .card:not(:last-child):focus-within {
