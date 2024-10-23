@@ -208,6 +208,35 @@ body {
 
 }
 
+.card:nth-child(6) {
+    animation-name: slideIn;
+    animation-duration: 1.5s;
+
+}
+
+.card:nth-child(7) {
+    animation-name: slideIn;
+    animation-duration: 1.7s;
+
+}
+
+.card:nth-child(8) {
+    animation-name: slideIn;
+    animation-duration: 1.9s;
+
+}
+
+.card:nth-child(9) {
+    animation-name: slideIn;
+    animation-duration: 2.1s;
+
+}
+.card:nth-child(10) {
+    animation-name: slideIn;
+    animation-duration: 2.3s;
+
+}
+
 
 .name{
 
